@@ -1,0 +1,78 @@
+.e {
+  background-image: url('../../assets/balcwithor.jpg'); /* Adjust the path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  padding: 20px; /* Add some padding to your content */
+  color: #ffffff; 
+
+}
+  .forFont{
+    margin:10px 8rem;
+    font-size:2rem;
+  }
+ 
+  .mainTable{
+    margin:70px 10rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+  .the-table{
+    padding-left:20px;
+    width:16rem;
+  
+    height:25rem;
+  }
+  .the-table>h7{
+    padding:0px 10px;
+    color: white;
+  }
+  .icons{
+    padding:10px 15px;
+    color: orange;
+  }
+  .the-table>h2{
+    font-size:2rem;
+    font-weight: bold;
+    color:white;
+  }
+  p{
+    color: white;
+  }
+  .addP{
+    width:17rem;
+    height:26rem;
+    margin-top:0px
+  }
+  .theThree {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+
+.kk{
+  margin-top: 4rem;
+  background-color:rgb(140, 140, 140) ;
+
+}
+.middle-table{
+  height:29rem;
+  background-color: rgba(255, 165, 0, 1);
+}
+  
+.btn {
+  margin-left:7px;
+  width:80%;
+}
+.btn:hover{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+}
+.middle-table>.btn{
+  margin-top:110px;
+  color:orange;
+}
+

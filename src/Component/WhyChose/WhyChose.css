@@ -1,0 +1,80 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* for the first gird*/
+.image-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:5px;
+    
+}
+ 
+.image44{
+height: 20rem;
+margin-left:2rem;
+width:10rem;
+}
+.image22{
+    height:10rem;
+    width:26rem;
+    margin-right:1rem;
+
+}
+.image34-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+.image33{
+    height:155px;
+    width:13rem;
+}
+.image55{
+    height:155px;
+    width:12rem;
+}
+/* for the second gird*/
+
+.text-right{
+    margin-left: 20px;
+
+}
+
+
+.first-text{
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.second-text>span{
+    font-size: 40px;
+
+}
+
+
+.second-text>span:nth-child(2){
+    font-weight: bold;
+    color: white;
+
+}
+.right-icon{
+    color:rgb(243, 156, 18);
+}
+.image-partner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.text-h7{
+    text-transform: uppercase;
+    color:rgb(240, 240, 240);
+}
+.nb>img:nth-child(2){
+
+    padding: 0 10px;
+}
+

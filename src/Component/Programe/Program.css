@@ -1,0 +1,55 @@
+.program{
+    display: flex;
+    flex-direction:column;
+    gap:2rem;
+    padding:0 2rem;
+
+}
+.program-header{
+    display: flex;
+    gap:5rem;
+    font-weight: bold;
+    font-size:3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+.gridby4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Two columns */
+    gap:10px; /* Gap between grid items */
+  }
+  
+
+
+.theone{
+    padding: 0 10px;
+    width:15rem;
+    height:inherit;
+    background-color:rgb(120, 120, 120)
+}
+.theone>h5:nth-child(1){
+    color:white;
+    padding-top: 2rem;
+
+}
+.arrow{
+    padding-top: 2rem;
+}
+.theone>p{
+    color: white;
+    font-size: smaller;
+   padding-bottom: 1rem;
+
+}
+.icon-fire{
+    padding:1rem;
+}
+.bAR{
+    padding: 1rem;
+    color: white;
+}
+.theone:hover{
+    background-color: orange;
+}
