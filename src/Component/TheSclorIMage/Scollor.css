@@ -12,7 +12,7 @@
   }
   
   .rectangle1,
-  .rectangle2,.image11{
+  .rectangle2,.small-image,.medium-image,.large-image{
     position: absolute;
     width: 200px; /* Adjust rectangle width */
    
@@ -31,7 +31,7 @@
     left: 50px; /* Adjust left position to overlap the first rectangle */
     z-index: 2; /* Set z-index lower to make it appear in front of the first rectangle */
   }
-  .image11{
+  .container>timage1{
     width:200px;
     height:250px ;
     z-index: 3;
@@ -61,5 +61,28 @@
     color:orange;
   }
   
- 
+  .small-image {
+    width:200px;
+    height:250px ;
+    z-index: 3;
+    top:20px;
+    left:30px; /* Define the width for small images */
+}
+
+.medium-image {
+  width:200px;
+  height:250px ;
+  z-index: 3;
+  top:20px;
+  left:30px; /* Define the width for medium images */
+}
+
+.large-image {
+  width:200px;
+  height:250px ;
+  z-index: 3;
+  top:20px;
+  left:30px;
+/* Define the width for large images */
+}
 
